@@ -9,6 +9,7 @@ import json
 import time
 from typing import List, Dict, Any
 from dataclasses import dataclass
+from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 
 
@@ -24,9 +25,14 @@ class PromptOptimizer:
         self.client = llm_client
         self.test_suite = test_suite
         self.results_history = []
+        self.executor = ThreadPoolExecutor()
+
+    def shutdown(self):
+        """Shutdown the thread pool executor."""
+        self.executor.shutdown(wait=True)
 
     def evaluate_prompt(self, prompt_template: str, test_cases: List[TestCase] = None) -> Dict[str, float]:
-        """Evaluate a prompt template against test cases."""
+        """Evaluate a prompt template against test cases in parallel."""
         if test_cases is None:
             test_cases = self.test_suite
 
@@ -37,7 +43,7 @@ class PromptOptimizer:
             'success_rate': []
         }
 
-        for test_case in test_cases:
+        def process_test_case(test_case):
             start_time = time.time()
 
             # Render prompt with test case inputs
@@ -49,16 +55,28 @@ class PromptOptimizer:
             # Measure latency
             latency = time.time() - start_time
 
-            # Calculate metrics
-            metrics['latency'].append(latency)
-            metrics['token_count'].append(len(prompt.split()) + len(response.split()))
-            metrics['success_rate'].append(1 if response else 0)
-
-            # Check accuracy
+            # Calculate individual metrics
+            token_count = len(prompt.split()) + len(response.split())
+            success = 1 if response else 0
             accuracy = self.calculate_accuracy(response, test_case.expected_output)
-            metrics['accuracy'].append(accuracy)
+
+            return {
+                'latency': latency,
+                'token_count': token_count,
+                'success_rate': success,
+                'accuracy': accuracy
+            }
+
+        # Run test cases in parallel
+        results = list(self.executor.map(process_test_case, test_cases))
 
         # Aggregate metrics
+        for result in results:
+            metrics['latency'].append(result['latency'])
+            metrics['token_count'].append(result['token_count'])
+            metrics['success_rate'].append(result['success_rate'])
+            metrics['accuracy'].append(result['accuracy'])
+
         return {
             'avg_accuracy': np.mean(metrics['accuracy']),
             'avg_latency': np.mean(metrics['latency']),
@@ -88,12 +106,18 @@ class PromptOptimizer:
         current_prompt = base_prompt
         best_prompt = base_prompt
         best_score = 0
+        current_metrics = None
 
         for iteration in range(max_iterations):
             print(f"\nIteration {iteration + 1}/{max_iterations}")
 
             # Evaluate current prompt
-            metrics = self.evaluate_prompt(current_prompt)
+            # Bolt Optimization: Avoid re-evaluating if we already have metrics from previous iteration
+            if current_metrics:
+                metrics = current_metrics
+            else:
+                metrics = self.evaluate_prompt(current_prompt)
+
             print(f"Accuracy: {metrics['avg_accuracy']:.2f}, Latency: {metrics['avg_latency']:.2f}s")
 
             # Track results
@@ -119,14 +143,17 @@ class PromptOptimizer:
             # Test variations and pick best
             best_variation = current_prompt
             best_variation_score = metrics['avg_accuracy']
+            best_variation_metrics = metrics
 
             for variation in variations:
                 var_metrics = self.evaluate_prompt(variation)
                 if var_metrics['avg_accuracy'] > best_variation_score:
                     best_variation_score = var_metrics['avg_accuracy']
                     best_variation = variation
+                    best_variation_metrics = var_metrics
 
             current_prompt = best_variation
+            current_metrics = best_variation_metrics
 
         return {
             'best_prompt': best_prompt,
@@ -233,16 +260,19 @@ def main():
 
     optimizer = PromptOptimizer(MockLLMClient(), test_suite)
 
-    base_prompt = "Classify the sentiment of: {text}\nSentiment:"
+    try:
+        base_prompt = "Classify the sentiment of: {text}\nSentiment:"
 
-    results = optimizer.optimize(base_prompt)
+        results = optimizer.optimize(base_prompt)
 
-    print("\n" + "="*50)
-    print("Optimization Complete!")
-    print(f"Best Accuracy: {results['best_score']:.2f}")
-    print(f"Best Prompt:\n{results['best_prompt']}")
+        print("\n" + "="*50)
+        print("Optimization Complete!")
+        print(f"Best Accuracy: {results['best_score']:.2f}")
+        print(f"Best Prompt:\n{results['best_prompt']}")
 
-    optimizer.export_results('optimization_results.json')
+        optimizer.export_results('optimization_results.json')
+    finally:
+        optimizer.shutdown()
 
 
 if __name__ == '__main__':

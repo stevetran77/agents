@@ -6,8 +6,8 @@
     "url": "https://github.com/wshobson"
   },
   "metadata": {
-    "description": "Production-ready workflow orchestration with 64 focused plugins, 87 specialized agents, and 44 tools - optimized for granular installation and minimal token usage",
-    "version": "1.2.0"
+    "description": "Production-ready workflow orchestration with 72 focused plugins, 112 specialized agents, and 146 skills - optimized for granular installation and minimal token usage",
+    "version": "1.5.5"
   },
   "plugins": [
     {
@@ -17,28 +17,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "documentation",
-        "code-explanation",
-        "technical-writing",
-        "tutorials"
-      ],
-      "category": "documentation",
-      "strict": false,
-      "commands": [
-        "./commands/doc-generate.md",
-        "./commands/code-explain.md"
-      ],
-      "agents": [
-        "./agents/docs-architect.md",
-        "./agents/tutorial-engineer.md",
-        "./agents/code-reviewer.md"
-      ]
+      "category": "documentation"
     },
     {
       "name": "debugging-toolkit",
@@ -47,151 +30,63 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "debugging",
-        "developer-experience",
-        "troubleshooting",
-        "essential"
-      ],
-      "category": "development",
-      "strict": false,
-      "commands": [
-        "./commands/smart-debug.md"
-      ],
-      "agents": [
-        "./agents/debugger.md",
-        "./agents/dx-optimizer.md"
-      ]
+      "category": "development"
     },
     {
       "name": "git-pr-workflows",
       "source": "./plugins/git-pr-workflows",
       "description": "Git workflow automation, pull request enhancement, and team onboarding processes",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "git",
-        "pull-request",
-        "workflow",
-        "onboarding",
-        "essential"
-      ],
-      "category": "workflows",
-      "strict": false,
-      "commands": [
-        "./commands/pr-enhance.md",
-        "./commands/onboard.md",
-        "./commands/git-workflow.md"
-      ],
-      "agents": [
-        "./agents/code-reviewer.md"
-      ]
+      "category": "workflows"
     },
     {
       "name": "backend-development",
       "source": "./plugins/backend-development",
-      "description": "Backend API design, GraphQL architecture, and test-driven backend development",
-      "version": "1.2.2",
+      "description": "Backend API design, GraphQL architecture, workflow orchestration with Temporal, and test-driven backend development",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "backend",
-        "api-design",
-        "graphql",
-        "tdd",
-        "architecture"
-      ],
-      "category": "development",
-      "strict": false,
-      "commands": [
-        "./commands/feature-development.md"
-      ],
-      "agents": [
-        "./agents/backend-architect.md",
-        "./agents/graphql-architect.md",
-        "./agents/tdd-orchestrator.md"
-      ],
-      "skills": [
-        "./skills/api-design-principles",
-        "./skills/architecture-patterns",
-        "./skills/microservices-patterns"
-      ]
+      "category": "development"
     },
     {
       "name": "frontend-mobile-development",
       "source": "./plugins/frontend-mobile-development",
       "description": "Frontend UI development and mobile application implementation across platforms",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "frontend",
-        "mobile",
-        "react",
-        "ui",
-        "cross-platform"
-      ],
-      "category": "development",
-      "strict": false,
-      "commands": [
-        "./commands/component-scaffold.md"
-      ],
-      "agents": [
-        "./agents/frontend-developer.md",
-        "./agents/mobile-developer.md"
-      ]
+      "category": "development"
     },
     {
       "name": "full-stack-orchestration",
       "source": "./plugins/full-stack-orchestration",
       "description": "End-to-end feature orchestration with testing, security, performance, and deployment",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "full-stack",
-        "orchestration",
-        "deployment",
-        "security",
-        "testing"
-      ],
-      "category": "workflows",
-      "strict": false,
-      "commands": [
-        "./commands/full-stack-feature.md"
-      ],
-      "agents": [
-        "./agents/test-automator.md",
-        "./agents/security-auditor.md",
-        "./agents/performance-engineer.md",
-        "./agents/deployment-engineer.md"
-      ]
+      "category": "workflows"
     },
     {
       "name": "unit-testing",
@@ -200,85 +95,24 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "testing",
-        "unit-tests",
-        "python",
-        "javascript",
-        "automation"
-      ],
-      "category": "testing",
-      "strict": false,
-      "commands": [
-        "./commands/test-generate.md"
-      ],
-      "agents": [
-        "./agents/test-automator.md",
-        "./agents/debugger.md"
-      ]
+      "category": "testing"
     },
     {
       "name": "tdd-workflows",
       "source": "./plugins/tdd-workflows",
       "description": "Test-driven development methodology with red-green-refactor cycles and code review",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "tdd",
-        "test-driven",
-        "workflow",
-        "red-green-refactor"
-      ],
-      "category": "workflows",
-      "strict": false,
-      "commands": [
-        "./commands/tdd-cycle.md",
-        "./commands/tdd-red.md",
-        "./commands/tdd-green.md",
-        "./commands/tdd-refactor.md"
-      ],
-      "agents": [
-        "./agents/tdd-orchestrator.md",
-        "./agents/code-reviewer.md"
-      ]
-    },
-    {
-      "name": "code-review-ai",
-      "source": "./plugins/code-review-ai",
-      "description": "AI-powered architectural review and code quality analysis",
-      "version": "1.2.0",
-      "author": {
-        "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
-      },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "code-review",
-        "architecture",
-        "ai-analysis",
-        "quality"
-      ],
-      "category": "quality",
-      "strict": false,
-      "commands": [
-        "./commands/ai-review.md"
-      ],
-      "agents": [
-        "./agents/architect-review.md"
-      ]
+      "category": "workflows"
     },
     {
       "name": "code-refactoring",
@@ -287,28 +121,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "refactoring",
-        "code-quality",
-        "technical-debt",
-        "cleanup"
-      ],
-      "category": "utilities",
-      "strict": false,
-      "commands": [
-        "./commands/refactor-clean.md",
-        "./commands/tech-debt.md",
-        "./commands/context-restore.md"
-      ],
-      "agents": [
-        "./agents/legacy-modernizer.md",
-        "./agents/code-reviewer.md"
-      ]
+      "category": "utilities"
     },
     {
       "name": "dependency-management",
@@ -317,26 +134,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "dependencies",
-        "npm",
-        "security",
-        "auditing",
-        "upgrades"
-      ],
-      "category": "utilities",
-      "strict": false,
-      "commands": [
-        "./commands/deps-audit.md"
-      ],
-      "agents": [
-        "./agents/legacy-modernizer.md"
-      ]
+      "category": "utilities"
     },
     {
       "name": "error-debugging",
@@ -345,28 +147,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "error-handling",
-        "debugging",
-        "diagnostics",
-        "troubleshooting"
-      ],
-      "category": "utilities",
-      "strict": false,
-      "commands": [
-        "./commands/error-analysis.md",
-        "./commands/error-trace.md",
-        "./commands/multi-agent-review.md"
-      ],
-      "agents": [
-        "./agents/debugger.md",
-        "./agents/error-detective.md"
-      ]
+      "category": "utilities"
     },
     {
       "name": "team-collaboration",
@@ -375,92 +160,37 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "collaboration",
-        "team",
-        "standup",
-        "issue-management"
-      ],
-      "category": "utilities",
-      "strict": false,
-      "commands": [
-        "./commands/issue.md",
-        "./commands/standup-notes.md"
-      ],
-      "agents": [
-        "./agents/dx-optimizer.md"
-      ]
+      "category": "utilities"
     },
     {
       "name": "llm-application-dev",
-      "source": "./plugins/llm-application-dev",
-      "description": "LLM application development, prompt engineering, and AI assistant optimization",
-      "version": "1.2.1",
+      "description": "LLM application development with LangGraph, RAG systems, vector search, and AI agent architectures for Claude 4.6 and GPT-5.2",
+      "version": "2.0.4",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "llm",
-        "ai",
-        "prompt-engineering",
-        "langchain",
-        "gpt",
-        "claude"
-      ],
+      "source": "./plugins/llm-application-dev",
       "category": "ai-ml",
-      "strict": false,
-      "commands": [
-        "./commands/langchain-agent.md",
-        "./commands/ai-assistant.md",
-        "./commands/prompt-optimize.md"
-      ],
-      "agents": [
-        "./agents/ai-engineer.md",
-        "./agents/prompt-engineer.md"
-      ],
-      "skills": [
-        "./skills/langchain-architecture",
-        "./skills/llm-evaluation",
-        "./skills/prompt-engineering-patterns",
-        "./skills/rag-implementation"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "agent-orchestration",
       "source": "./plugins/agent-orchestration",
       "description": "Multi-agent system optimization, agent improvement workflows, and context management",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "multi-agent",
-        "orchestration",
-        "ai-agents",
-        "optimization"
-      ],
-      "category": "ai-ml",
-      "strict": false,
-      "commands": [
-        "./commands/multi-agent-optimize.md",
-        "./commands/improve-agent.md"
-      ],
-      "agents": [
-        "./agents/context-manager.md"
-      ]
+      "category": "ai-ml"
     },
     {
       "name": "context-management",
@@ -469,411 +199,167 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "context",
-        "persistence",
-        "conversation",
-        "memory"
-      ],
-      "category": "ai-ml",
-      "strict": false,
-      "commands": [
-        "./commands/context-save.md",
-        "./commands/context-restore.md"
-      ],
-      "agents": [
-        "./agents/context-manager.md"
-      ]
+      "category": "ai-ml"
     },
     {
       "name": "machine-learning-ops",
-      "source": "./plugins/machine-learning-ops",
       "description": "ML model training pipelines, hyperparameter tuning, model deployment automation, experiment tracking, and MLOps workflows",
       "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "machine-learning",
-        "mlops",
-        "model-training",
-        "tensorflow",
-        "pytorch",
-        "mlflow"
-      ],
+      "source": "./plugins/machine-learning-ops",
       "category": "ai-ml",
-      "strict": false,
-      "commands": [
-        "./commands/ml-pipeline.md"
-      ],
-      "agents": [
-        "./agents/data-scientist.md",
-        "./agents/ml-engineer.md",
-        "./agents/mlops-engineer.md"
-      ],
-      "skills": [
-        "./skills/ml-pipeline-workflow"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "data-engineering",
-      "source": "./plugins/data-engineering",
       "description": "ETL pipeline construction, data warehouse design, batch processing workflows, and data-driven feature development",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "data-engineering",
-        "etl",
-        "data-pipeline",
-        "data-warehouse",
-        "batch-processing"
-      ],
+      "source": "./plugins/data-engineering",
       "category": "data",
-      "strict": false,
-      "commands": [
-        "./commands/data-driven-feature.md",
-        "./commands/data-pipeline.md"
-      ],
-      "agents": [
-        "./agents/data-engineer.md",
-        "./agents/backend-architect.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "incident-response",
-      "source": "./plugins/incident-response",
       "description": "Production incident management, triage workflows, and automated incident resolution",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "incident-response",
-        "production",
-        "sre",
-        "troubleshooting"
-      ],
+      "source": "./plugins/incident-response",
       "category": "operations",
-      "strict": false,
-      "commands": [
-        "./commands/incident-response.md",
-        "./commands/smart-fix.md"
-      ],
-      "agents": [
-        "./agents/incident-responder.md",
-        "./agents/devops-troubleshooter.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "error-diagnostics",
-      "source": "./plugins/error-diagnostics",
       "description": "Error tracing, root cause analysis, and smart debugging for production systems",
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "diagnostics",
-        "error-tracing",
-        "root-cause",
-        "debugging"
-      ],
+      "source": "./plugins/error-diagnostics",
       "category": "operations",
-      "strict": false,
-      "commands": [
-        "./commands/error-trace.md",
-        "./commands/error-analysis.md",
-        "./commands/smart-debug.md"
-      ],
-      "agents": [
-        "./agents/debugger.md",
-        "./agents/error-detective.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "distributed-debugging",
-      "source": "./plugins/distributed-debugging",
       "description": "Distributed system tracing and debugging across microservices",
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "distributed-tracing",
-        "microservices",
-        "debugging",
-        "observability"
-      ],
+      "source": "./plugins/distributed-debugging",
       "category": "operations",
-      "strict": false,
-      "commands": [
-        "./commands/debug-trace.md"
-      ],
-      "agents": [
-        "./agents/error-detective.md",
-        "./agents/devops-troubleshooter.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "observability-monitoring",
-      "source": "./plugins/observability-monitoring",
       "description": "Metrics collection, logging infrastructure, distributed tracing, SLO implementation, and monitoring dashboards",
       "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "observability",
-        "monitoring",
-        "metrics",
-        "logging",
-        "tracing",
-        "slo",
-        "prometheus",
-        "grafana"
-      ],
+      "source": "./plugins/observability-monitoring",
       "category": "operations",
-      "strict": false,
-      "commands": [
-        "./commands/monitor-setup.md",
-        "./commands/slo-implement.md"
-      ],
-      "agents": [
-        "./agents/observability-engineer.md",
-        "./agents/performance-engineer.md",
-        "./agents/database-optimizer.md",
-        "./agents/network-engineer.md"
-      ],
-      "skills": [
-        "./skills/distributed-tracing",
-        "./skills/grafana-dashboards",
-        "./skills/prometheus-configuration",
-        "./skills/slo-implementation"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "deployment-strategies",
-      "source": "./plugins/deployment-strategies",
       "description": "Deployment patterns, rollback automation, and infrastructure templates",
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "deployment",
-        "rollout",
-        "rollback",
-        "canary",
-        "blue-green"
-      ],
+      "source": "./plugins/deployment-strategies",
       "category": "infrastructure",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/deployment-engineer.md",
-        "./agents/terraform-specialist.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "deployment-validation",
-      "source": "./plugins/deployment-validation",
       "description": "Pre-deployment checks, configuration validation, and deployment readiness assessment",
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "validation",
-        "pre-flight",
-        "configuration",
-        "deployment-safety"
-      ],
+      "source": "./plugins/deployment-validation",
       "category": "infrastructure",
-      "strict": false,
-      "commands": [
-        "./commands/config-validate.md"
-      ],
-      "agents": [
-        "./agents/cloud-architect.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "kubernetes-operations",
-      "source": "./plugins/kubernetes-operations",
       "description": "Kubernetes manifest generation, networking configuration, security policies, observability setup, GitOps workflows, and auto-scaling",
       "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "kubernetes",
-        "k8s",
-        "containers",
-        "helm",
-        "argocd",
-        "gitops"
-      ],
+      "source": "./plugins/kubernetes-operations",
       "category": "infrastructure",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/kubernetes-architect.md"
-      ],
-      "skills": [
-        "./skills/gitops-workflow",
-        "./skills/helm-chart-scaffolding",
-        "./skills/k8s-manifest-generator",
-        "./skills/k8s-security-policies"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "cloud-infrastructure",
-      "source": "./plugins/cloud-infrastructure",
       "description": "Cloud architecture design for AWS/Azure/GCP, Kubernetes cluster configuration, Terraform infrastructure-as-code, hybrid cloud networking, and multi-cloud cost optimization",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "cloud",
-        "aws",
-        "azure",
-        "gcp",
-        "kubernetes",
-        "terraform",
-        "infrastructure"
-      ],
+      "source": "./plugins/cloud-infrastructure",
       "category": "infrastructure",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/cloud-architect.md",
-        "./agents/kubernetes-architect.md",
-        "./agents/hybrid-cloud-architect.md",
-        "./agents/terraform-specialist.md",
-        "./agents/network-engineer.md",
-        "./agents/deployment-engineer.md"
-      ],
-      "skills": [
-        "./skills/cost-optimization",
-        "./skills/hybrid-cloud-networking",
-        "./skills/multi-cloud-architecture",
-        "./skills/terraform-module-library"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "cicd-automation",
-      "source": "./plugins/cicd-automation",
       "description": "CI/CD pipeline configuration, GitHub Actions/GitLab CI workflow setup, and automated deployment pipeline orchestration",
       "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "ci-cd",
-        "automation",
-        "pipeline",
-        "github-actions",
-        "gitlab-ci"
-      ],
+      "source": "./plugins/cicd-automation",
       "category": "infrastructure",
-      "strict": false,
-      "commands": [
-        "./commands/workflow-automate.md"
-      ],
-      "agents": [
-        "./agents/deployment-engineer.md",
-        "./agents/devops-troubleshooter.md",
-        "./agents/kubernetes-architect.md",
-        "./agents/cloud-architect.md",
-        "./agents/terraform-specialist.md"
-      ],
-      "skills": [
-        "./skills/deployment-pipeline-design",
-        "./skills/github-actions-templates",
-        "./skills/gitlab-ci-patterns",
-        "./skills/secrets-management"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "application-performance",
       "source": "./plugins/application-performance",
       "description": "Application profiling, performance optimization, and observability for frontend and backend systems",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "performance",
-        "profiling",
-        "optimization",
-        "core-web-vitals"
-      ],
-      "category": "performance",
-      "strict": false,
-      "commands": [
-        "./commands/performance-optimization.md"
-      ],
-      "agents": [
-        "./agents/performance-engineer.md",
-        "./agents/frontend-developer.md",
-        "./agents/observability-engineer.md"
-      ]
+      "category": "performance"
     },
     {
       "name": "database-cloud-optimization",
@@ -882,124 +368,50 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "database-optimization",
-        "cloud-cost",
-        "query-tuning",
-        "scalability"
-      ],
-      "category": "performance",
-      "strict": false,
-      "commands": [
-        "./commands/cost-optimize.md"
-      ],
-      "agents": [
-        "./agents/database-optimizer.md",
-        "./agents/database-architect.md",
-        "./agents/backend-architect.md",
-        "./agents/cloud-architect.md"
-      ]
+      "category": "performance"
     },
     {
       "name": "comprehensive-review",
       "source": "./plugins/comprehensive-review",
       "description": "Multi-perspective code analysis covering architecture, security, and best practices",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "code-review",
-        "quality",
-        "architecture",
-        "security",
-        "best-practices"
-      ],
-      "category": "quality",
-      "strict": false,
-      "commands": [
-        "./commands/full-review.md",
-        "./commands/pr-enhance.md"
-      ],
-      "agents": [
-        "./agents/code-reviewer.md",
-        "./agents/architect-review.md",
-        "./agents/security-auditor.md"
-      ]
+      "category": "quality"
     },
     {
       "name": "performance-testing-review",
       "source": "./plugins/performance-testing-review",
       "description": "Performance analysis, test coverage review, and AI-powered code quality assessment",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "performance-review",
-        "test-coverage",
-        "quality-analysis"
-      ],
-      "category": "quality",
-      "strict": false,
-      "commands": [
-        "./commands/ai-review.md",
-        "./commands/multi-agent-review.md"
-      ],
-      "agents": [
-        "./agents/performance-engineer.md",
-        "./agents/test-automator.md"
-      ]
+      "category": "quality"
     },
     {
       "name": "framework-migration",
       "source": "./plugins/framework-migration",
       "description": "Framework updates, migration planning, and architectural transformation workflows",
-      "version": "1.2.2",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "migration",
-        "framework-upgrade",
-        "modernization",
-        "angular",
-        "react"
-      ],
-      "category": "modernization",
-      "strict": false,
-      "commands": [
-        "./commands/legacy-modernize.md",
-        "./commands/code-migrate.md",
-        "./commands/deps-upgrade.md"
-      ],
-      "agents": [
-        "./agents/legacy-modernizer.md",
-        "./agents/architect-review.md"
-      ],
-      "skills": [
-        "./skills/angular-migration",
-        "./skills/database-migration",
-        "./skills/dependency-upgrade",
-        "./skills/react-modernization"
-      ]
+      "category": "modernization"
     },
     {
       "name": "codebase-cleanup",
@@ -1008,28 +420,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "technical-debt",
-        "cleanup",
-        "refactoring",
-        "dependencies"
-      ],
-      "category": "modernization",
-      "strict": false,
-      "commands": [
-        "./commands/deps-audit.md",
-        "./commands/tech-debt.md",
-        "./commands/refactor-clean.md"
-      ],
-      "agents": [
-        "./agents/test-automator.md",
-        "./agents/code-reviewer.md"
-      ]
+      "category": "modernization"
     },
     {
       "name": "database-design",
@@ -1038,27 +433,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "database-design",
-        "schema",
-        "sql",
-        "data-modeling"
-      ],
-      "category": "database",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/database-architect.md",
-        "./agents/sql-pro.md"
-      ],
-      "skills": [
-        "./skills/postgresql"
-      ]
+      "category": "database"
     },
     {
       "name": "database-migrations",
@@ -1067,173 +446,76 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "migrations",
-        "database-operations",
-        "postgres",
-        "mysql",
-        "mongodb"
-      ],
-      "category": "database",
-      "strict": false,
-      "commands": [
-        "./commands/sql-migrations.md",
-        "./commands/migration-observability.md"
-      ],
-      "agents": [
-        "./agents/database-optimizer.md",
-        "./agents/database-admin.md"
-      ]
+      "category": "database"
     },
     {
       "name": "security-scanning",
-      "source": "./plugins/security-scanning",
       "description": "SAST analysis, dependency vulnerability scanning, OWASP Top 10 compliance, container security scanning, and automated security hardening",
-      "version": "1.2.2",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "security",
-        "sast",
-        "vulnerability-scanning",
-        "owasp",
-        "devsecops"
-      ],
+      "source": "./plugins/security-scanning",
       "category": "security",
-      "strict": false,
-      "commands": [
-        "./commands/security-hardening.md",
-        "./commands/security-sast.md",
-        "./commands/security-dependencies.md"
-      ],
-      "agents": [
-        "./agents/security-auditor.md"
-      ],
-      "skills": [
-        "./skills/sast-configuration"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "security-compliance",
-      "source": "./plugins/security-compliance",
       "description": "SOC2, HIPAA, and GDPR compliance validation, secrets scanning, compliance checklists, and regulatory documentation",
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "compliance",
-        "soc2",
-        "hipaa",
-        "gdpr",
-        "secrets",
-        "regulatory"
-      ],
+      "source": "./plugins/security-compliance",
       "category": "security",
-      "strict": false,
-      "commands": [
-        "./commands/compliance-check.md"
-      ],
-      "agents": [
-        "./agents/security-auditor.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "backend-api-security",
-      "source": "./plugins/backend-api-security",
       "description": "API security hardening, authentication implementation, authorization patterns, rate limiting, and input validation",
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "api-security",
-        "authentication",
-        "authorization",
-        "jwt",
-        "oauth"
-      ],
+      "source": "./plugins/backend-api-security",
       "category": "security",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/backend-security-coder.md",
-        "./agents/backend-architect.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "frontend-mobile-security",
-      "source": "./plugins/frontend-mobile-security",
       "description": "XSS prevention, CSRF protection, content security policies, mobile app security, and secure storage patterns",
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "frontend-security",
-        "mobile-security",
-        "xss",
-        "csrf",
-        "csp"
-      ],
+      "source": "./plugins/frontend-mobile-security",
       "category": "security",
-      "strict": false,
-      "commands": [
-        "./commands/xss-scan.md"
-      ],
-      "agents": [
-        "./agents/frontend-security-coder.md",
-        "./agents/mobile-security-coder.md",
-        "./agents/frontend-developer.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "data-validation-suite",
-      "source": "./plugins/data-validation-suite",
       "description": "Schema validation, data quality monitoring, streaming validation pipelines, and input validation for backend APIs",
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
-      "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
-      "license": "MIT",
-      "keywords": [
-        "validation",
-        "schema",
-        "data-quality",
-        "pydantic",
-        "jsonschema"
-      ],
+      "source": "./plugins/data-validation-suite",
       "category": "data",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/backend-security-coder.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "api-scaffolding",
@@ -1242,31 +524,11 @@
       "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "api",
-        "rest",
-        "graphql",
-        "fastapi",
-        "django",
-        "express"
-      ],
-      "category": "api",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/backend-architect.md",
-        "./agents/graphql-architect.md",
-        "./agents/fastapi-pro.md",
-        "./agents/django-pro.md"
-      ],
-      "skills": [
-        "./skills/fastapi-templates"
-      ]
+      "category": "api"
     },
     {
       "name": "api-testing-observability",
@@ -1275,26 +537,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "api-testing",
-        "mocking",
-        "openapi",
-        "swagger",
-        "observability"
-      ],
-      "category": "api",
-      "strict": false,
-      "commands": [
-        "./commands/api-mock.md"
-      ],
-      "agents": [
-        "./agents/api-documenter.md"
-      ]
+      "category": "api"
     },
     {
       "name": "seo-content-creation",
@@ -1303,25 +550,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "seo",
-        "content-writing",
-        "content-planning",
-        "content-audit"
-      ],
-      "category": "marketing",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/seo-content-writer.md",
-        "./agents/seo-content-planner.md",
-        "./agents/seo-content-auditor.md"
-      ]
+      "category": "marketing"
     },
     {
       "name": "seo-technical-optimization",
@@ -1330,27 +563,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "seo",
-        "meta-optimization",
-        "keywords",
-        "schema-markup",
-        "snippets"
-      ],
-      "category": "marketing",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/seo-meta-optimizer.md",
-        "./agents/seo-keyword-strategist.md",
-        "./agents/seo-structure-architect.md",
-        "./agents/seo-snippet-hunter.md"
-      ]
+      "category": "marketing"
     },
     {
       "name": "seo-analysis-monitoring",
@@ -1359,149 +576,89 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "seo",
-        "content-analysis",
-        "e-e-a-t",
-        "authority",
-        "monitoring"
-      ],
-      "category": "marketing",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/seo-content-refresher.md",
-        "./agents/seo-cannibalization-detector.md",
-        "./agents/seo-authority-builder.md"
-      ]
+      "category": "marketing"
     },
     {
       "name": "documentation-generation",
       "source": "./plugins/documentation-generation",
       "description": "OpenAPI specification generation, Mermaid diagram creation, tutorial writing, API reference documentation",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "documentation",
-        "api-docs",
-        "diagrams",
-        "openapi",
-        "swagger",
-        "mermaid"
-      ],
-      "category": "documentation",
-      "strict": false,
-      "commands": [
-        "./commands/doc-generate.md"
-      ],
-      "agents": [
-        "./agents/docs-architect.md",
-        "./agents/api-documenter.md",
-        "./agents/mermaid-expert.md",
-        "./agents/tutorial-engineer.md",
-        "./agents/reference-builder.md"
-      ]
+      "category": "documentation"
+    },
+    {
+      "name": "c4-architecture",
+      "source": "./plugins/c4-architecture",
+      "description": "Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagram generation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Seth Hobson",
+        "email": "seth@major7apps.com"
+      },
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "category": "documentation"
     },
     {
       "name": "multi-platform-apps",
       "source": "./plugins/multi-platform-apps",
       "description": "Cross-platform application development coordinating web, iOS, Android, and desktop implementations",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "cross-platform",
-        "mobile",
-        "web",
-        "desktop",
-        "react-native",
-        "flutter"
-      ],
-      "category": "development",
-      "strict": false,
-      "commands": [
-        "./commands/multi-platform.md"
-      ],
-      "agents": [
-        "./agents/mobile-developer.md",
-        "./agents/flutter-expert.md",
-        "./agents/ios-developer.md",
-        "./agents/frontend-developer.md",
-        "./agents/backend-architect.md",
-        "./agents/ui-ux-designer.md"
-      ]
+      "category": "development"
     },
     {
       "name": "business-analytics",
       "source": "./plugins/business-analytics",
       "description": "Business metrics analysis, KPI tracking, financial reporting, and data-driven decision making",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "business",
-        "analytics",
-        "metrics",
-        "kpi",
-        "reporting",
-        "bi"
-      ],
+      "category": "business"
+    },
+    {
+      "name": "startup-business-analyst",
+      "description": "Comprehensive startup business analysis with market sizing (TAM/SAM/SOM), financial modeling, team planning, and strategic research for early-stage companies",
+      "version": "1.0.4",
+      "author": {
+        "name": "Seth Hobson",
+        "email": "seth@major7apps.com"
+      },
+      "source": "./plugins/startup-business-analyst",
       "category": "business",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/business-analyst.md"
-      ]
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
     },
     {
       "name": "hr-legal-compliance",
       "source": "./plugins/hr-legal-compliance",
       "description": "HR policy documentation, legal compliance templates (GDPR/SOC2/HIPAA), employment contracts, and regulatory documentation",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "hr",
-        "legal",
-        "compliance",
-        "gdpr",
-        "soc2",
-        "hipaa",
-        "policies"
-      ],
-      "category": "business",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/hr-pro.md",
-        "./agents/legal-advisor.md"
-      ]
+      "category": "business"
     },
     {
       "name": "customer-sales-automation",
@@ -1510,25 +667,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "customer-support",
-        "sales",
-        "crm",
-        "email-campaigns",
-        "automation"
-      ],
-      "category": "business",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/customer-support.md",
-        "./agents/sales-automator.md"
-      ]
+      "category": "business"
     },
     {
       "name": "content-marketing",
@@ -1537,24 +680,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "content-marketing",
-        "research",
-        "marketing-strategy",
-        "social-media"
-      ],
-      "category": "marketing",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/content-marketer.md",
-        "./agents/search-specialist.md"
-      ]
+      "category": "marketing"
     },
     {
       "name": "blockchain-web3",
@@ -1563,59 +693,24 @@
       "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "blockchain",
-        "web3",
-        "solidity",
-        "ethereum",
-        "defi",
-        "nft",
-        "smart-contracts"
-      ],
-      "category": "blockchain",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/blockchain-developer.md"
-      ],
-      "skills": [
-        "./skills/defi-protocol-templates",
-        "./skills/nft-standards",
-        "./skills/solidity-security",
-        "./skills/web3-testing"
-      ]
+      "category": "blockchain"
     },
     {
       "name": "quantitative-trading",
       "source": "./plugins/quantitative-trading",
       "description": "Quantitative analysis, algorithmic trading strategies, financial modeling, portfolio risk management, and backtesting",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "fintech",
-        "quant",
-        "trading",
-        "algorithmic-trading",
-        "risk-management"
-      ],
-      "category": "finance",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/quant-analyst.md",
-        "./agents/risk-manager.md"
-      ]
+      "category": "finance"
     },
     {
       "name": "payment-processing",
@@ -1624,88 +719,37 @@
       "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "payments",
-        "stripe",
-        "paypal",
-        "checkout",
-        "billing",
-        "subscriptions",
-        "pci"
-      ],
-      "category": "payments",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/payment-integration.md"
-      ],
-      "skills": [
-        "./skills/billing-automation",
-        "./skills/paypal-integration",
-        "./skills/pci-compliance",
-        "./skills/stripe-integration"
-      ]
+      "category": "payments"
     },
     {
       "name": "game-development",
       "source": "./plugins/game-development",
       "description": "Unity game development with C# scripting, Minecraft server plugin development with Bukkit/Spigot APIs",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "gaming",
-        "unity",
-        "minecraft",
-        "game-dev",
-        "bukkit",
-        "spigot"
-      ],
-      "category": "gaming",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/unity-developer.md",
-        "./agents/minecraft-bukkit-pro.md"
-      ]
+      "category": "gaming"
     },
     {
       "name": "accessibility-compliance",
       "source": "./plugins/accessibility-compliance",
       "description": "WCAG accessibility auditing, compliance validation, UI testing for screen readers, keyboard navigation, and inclusive design",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "accessibility",
-        "wcag",
-        "a11y",
-        "compliance",
-        "inclusive-design"
-      ],
-      "category": "accessibility",
-      "strict": false,
-      "commands": [
-        "./commands/accessibility-audit.md"
-      ],
-      "agents": [
-        "./agents/ui-visual-validator.md"
-      ]
+      "category": "accessibility"
     },
     {
       "name": "python-development",
@@ -1714,35 +758,11 @@
       "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "python",
-        "django",
-        "fastapi",
-        "async",
-        "backend"
-      ],
-      "category": "languages",
-      "strict": false,
-      "commands": [
-        "./commands/python-scaffold.md"
-      ],
-      "agents": [
-        "./agents/python-pro.md",
-        "./agents/django-pro.md",
-        "./agents/fastapi-pro.md"
-      ],
-      "skills": [
-        "./skills/async-python-patterns",
-        "./skills/python-testing-patterns",
-        "./skills/python-packaging",
-        "./skills/python-performance-optimization",
-        "./skills/uv-package-manager"
-      ]
+      "category": "languages"
     },
     {
       "name": "javascript-typescript",
@@ -1751,65 +771,24 @@
       "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "javascript",
-        "typescript",
-        "es6",
-        "nodejs",
-        "react"
-      ],
-      "category": "languages",
-      "strict": false,
-      "commands": [
-        "./commands/typescript-scaffold.md"
-      ],
-      "agents": [
-        "./agents/javascript-pro.md",
-        "./agents/typescript-pro.md"
-      ],
-      "skills": [
-        "./skills/typescript-advanced-types",
-        "./skills/nodejs-backend-patterns",
-        "./skills/javascript-testing-patterns",
-        "./skills/modern-javascript-patterns"
-      ]
+      "category": "languages"
     },
     {
       "name": "systems-programming",
       "source": "./plugins/systems-programming",
       "description": "Systems programming with Rust, Go, C, and C++ for performance-critical and low-level development",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "rust",
-        "golang",
-        "c",
-        "cpp",
-        "systems-programming",
-        "performance"
-      ],
-      "category": "languages",
-      "strict": false,
-      "commands": [
-        "./commands/rust-project.md"
-      ],
-      "agents": [
-        "./agents/rust-pro.md",
-        "./agents/golang-pro.md",
-        "./agents/c-pro.md",
-        "./agents/cpp-pro.md"
-      ]
+      "category": "languages"
     },
     {
       "name": "jvm-languages",
@@ -1818,27 +797,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "java",
-        "scala",
-        "csharp",
-        "jvm",
-        "enterprise",
-        "dotnet"
-      ],
-      "category": "languages",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/java-pro.md",
-        "./agents/scala-pro.md",
-        "./agents/csharp-pro.md"
-      ]
+      "category": "languages"
     },
     {
       "name": "web-scripting",
@@ -1847,25 +810,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "php",
-        "ruby",
-        "rails",
-        "wordpress",
-        "web-scripting"
-      ],
-      "category": "languages",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/php-pro.md",
-        "./agents/ruby-pro.md"
-      ]
+      "category": "languages"
     },
     {
       "name": "functional-programming",
@@ -1874,24 +823,11 @@
       "version": "1.2.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "elixir",
-        "functional",
-        "phoenix",
-        "otp",
-        "distributed"
-      ],
-      "category": "languages",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/elixir-pro.md"
-      ]
+      "category": "languages"
     },
     {
       "name": "julia-development",
@@ -1903,23 +839,8 @@
         "url": "https://github.com/exAClior"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "julia",
-        "scientific-computing",
-        "numerical",
-        "performance",
-        "data-science",
-        "multiple-dispatch"
-      ],
-      "category": "languages",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/julia-pro.md"
-      ],
-      "skills": []
+      "category": "languages"
     },
     {
       "name": "arm-cortex-microcontrollers",
@@ -1931,23 +852,8 @@
         "url": "https://github.com/rsnodgrass"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "embedded",
-        "arm",
-        "cortex-m",
-        "firmware",
-        "microcontroller",
-        "teensy",
-        "stm32"
-      ],
-      "category": "languages",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/arm-cortex-expert.md"
-      ]
+      "category": "languages"
     },
     {
       "name": "shell-scripting",
@@ -1959,66 +865,86 @@
         "url": "https://github.com/rsnodgrass"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "bash",
-        "shell",
-        "scripting",
-        "automation",
-        "posix",
-        "shellcheck",
-        "testing"
-      ],
-      "category": "languages",
-      "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/bash-pro.md",
-        "./agents/posix-shell-pro.md"
-      ],
-      "skills": [
-        "./skills/bash-defensive-patterns/SKILL.md",
-        "./skills/shellcheck-configuration/SKILL.md",
-        "./skills/bats-testing-patterns/SKILL.md"
-      ]
+      "category": "languages"
     },
     {
       "name": "developer-essentials",
       "source": "./plugins/developer-essentials",
       "description": "Essential developer skills including Git workflows, SQL optimization, error handling, code review, E2E testing, authentication, debugging, and monorepo management",
+      "version": "1.0.1",
+      "author": {
+        "name": "Seth Hobson",
+        "email": "seth@major7apps.com"
+      },
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "category": "development"
+    },
+    {
+      "name": "reverse-engineering",
+      "source": "./plugins/reverse-engineering",
+      "description": "Binary reverse engineering, malware analysis, firmware security, and software protection research for authorized security research, CTF competitions, and defensive security",
+      "version": "1.0.0",
+      "author": {
+        "name": "Dávid Balatoni",
+        "url": "https://github.com/balcsida"
+      },
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "category": "security"
+    },
+    {
+      "name": "conductor",
+      "description": "Context-Driven Development plugin that transforms Claude Code into a project management tool with structured workflow: Context → Spec & Plan → Implement",
+      "version": "1.2.1",
+      "author": {
+        "name": "Seth Hobson",
+        "email": "seth@major7apps.com"
+      },
+      "source": "./plugins/conductor",
+      "category": "workflows",
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "ui-design",
+      "description": "Comprehensive UI/UX design plugin for mobile (iOS, Android, React Native) and web applications with design systems, accessibility, and modern patterns",
+      "version": "1.0.3",
+      "author": {
+        "name": "Seth Hobson",
+        "email": "seth@major7apps.com"
+      },
+      "source": "./plugins/ui-design",
+      "category": "development",
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
+    },
+    {
+      "name": "agent-teams",
+      "description": "Orchestrate multi-agent teams for parallel code review, hypothesis-driven debugging, and coordinated feature development using Claude Code's Agent Teams",
+      "version": "1.0.2",
+      "author": {
+        "name": "Seth Hobson",
+        "email": "seth@major7apps.com"
+      },
+      "source": "./plugins/agent-teams",
+      "category": "workflows",
+      "homepage": "https://github.com/wshobson/agents",
+      "license": "MIT"
+    },
+    {
+      "name": "dotnet-contribution",
+      "source": "./plugins/dotnet-contribution",
+      "description": "Comprehensive .NET backend development with C#, ASP.NET Core, Entity Framework Core, and Dapper for production-grade applications",
       "version": "1.0.0",
       "author": {
         "name": "Seth Hobson",
-        "url": "https://github.com/wshobson"
+        "email": "seth@major7apps.com"
       },
       "homepage": "https://github.com/wshobson/agents",
-      "repository": "https://github.com/wshobson/agents",
       "license": "MIT",
-      "keywords": [
-        "git",
-        "sql",
-        "debugging",
-        "testing",
-        "authentication",
-        "code-review",
-        "monorepo",
-        "essential"
-      ],
-      "category": "development",
-      "strict": false,
-      "commands": [],
-      "agents": [],
-      "skills": [
-        "./skills/git-advanced-workflows",
-        "./skills/sql-optimization-patterns",
-        "./skills/error-handling-patterns",
-        "./skills/code-review-excellence",
-        "./skills/e2e-testing-patterns",
-        "./skills/auth-implementation-patterns",
-        "./skills/debugging-strategies",
-        "./skills/monorepo-management"
-      ]
+      "category": "languages"
     }
   ]
 }

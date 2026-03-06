@@ -50,155 +50,155 @@ Claude Code automatically selects and coordinates the appropriate agents based o
 
 ### Development & Features
 
-| Command | Description |
-|---------|-------------|
-| `/backend-development:feature-development` | End-to-end backend feature development |
-| `/full-stack-orchestration:full-stack-feature` | Complete full-stack feature implementation |
-| `/multi-platform-apps:multi-platform` | Cross-platform app development coordination |
+| Command                                        | Description                                 |
+| ---------------------------------------------- | ------------------------------------------- |
+| `/backend-development:feature-development`     | End-to-end backend feature development      |
+| `/full-stack-orchestration:full-stack-feature` | Complete full-stack feature implementation  |
+| `/multi-platform-apps:multi-platform`          | Cross-platform app development coordination |
 
 ### Testing & Quality
 
-| Command | Description |
-|---------|-------------|
-| `/unit-testing:test-generate` | Generate comprehensive unit tests |
-| `/tdd-workflows:tdd-cycle` | Complete TDD red-green-refactor cycle |
-| `/tdd-workflows:tdd-red` | Write failing tests first |
-| `/tdd-workflows:tdd-green` | Implement code to pass tests |
-| `/tdd-workflows:tdd-refactor` | Refactor with passing tests |
+| Command                       | Description                           |
+| ----------------------------- | ------------------------------------- |
+| `/unit-testing:test-generate` | Generate comprehensive unit tests     |
+| `/tdd-workflows:tdd-cycle`    | Complete TDD red-green-refactor cycle |
+| `/tdd-workflows:tdd-red`      | Write failing tests first             |
+| `/tdd-workflows:tdd-green`    | Implement code to pass tests          |
+| `/tdd-workflows:tdd-refactor` | Refactor with passing tests           |
 
 ### Code Quality & Review
 
-| Command | Description |
-|---------|-------------|
-| `/code-review-ai:ai-review` | AI-powered code review |
+| Command                             | Description                |
+| ----------------------------------- | -------------------------- |
 | `/comprehensive-review:full-review` | Multi-perspective analysis |
-| `/comprehensive-review:pr-enhance` | Enhance pull requests |
+| `/comprehensive-review:pr-enhance`  | Enhance pull requests      |
 
 ### Debugging & Troubleshooting
 
-| Command | Description |
-|---------|-------------|
-| `/debugging-toolkit:smart-debug` | Interactive smart debugging |
+| Command                                | Description                    |
+| -------------------------------------- | ------------------------------ |
+| `/debugging-toolkit:smart-debug`       | Interactive smart debugging    |
 | `/incident-response:incident-response` | Production incident management |
-| `/incident-response:smart-fix` | Automated incident resolution |
-| `/error-debugging:error-analysis` | Deep error analysis |
-| `/error-debugging:error-trace` | Stack trace debugging |
-| `/error-diagnostics:smart-debug` | Smart diagnostic debugging |
-| `/distributed-debugging:debug-trace` | Distributed system tracing |
+| `/incident-response:smart-fix`         | Automated incident resolution  |
+| `/error-debugging:error-analysis`      | Deep error analysis            |
+| `/error-debugging:error-trace`         | Stack trace debugging          |
+| `/error-diagnostics:smart-debug`       | Smart diagnostic debugging     |
+| `/distributed-debugging:debug-trace`   | Distributed system tracing     |
 
 ### Security
 
-| Command | Description |
-|---------|-------------|
-| `/security-scanning:security-hardening` | Comprehensive security hardening |
-| `/security-scanning:security-sast` | Static application security testing |
-| `/security-scanning:security-dependencies` | Dependency vulnerability scanning |
-| `/security-compliance:compliance-check` | SOC2/HIPAA/GDPR compliance |
-| `/frontend-mobile-security:xss-scan` | XSS vulnerability scanning |
+| Command                                    | Description                         |
+| ------------------------------------------ | ----------------------------------- |
+| `/security-scanning:security-hardening`    | Comprehensive security hardening    |
+| `/security-scanning:security-sast`         | Static application security testing |
+| `/security-scanning:security-dependencies` | Dependency vulnerability scanning   |
+| `/security-compliance:compliance-check`    | SOC2/HIPAA/GDPR compliance          |
+| `/frontend-mobile-security:xss-scan`       | XSS vulnerability scanning          |
 
 ### Infrastructure & Deployment
 
-| Command | Description |
-|---------|-------------|
+| Command                                   | Description                     |
+| ----------------------------------------- | ------------------------------- |
 | `/observability-monitoring:monitor-setup` | Setup monitoring infrastructure |
-| `/observability-monitoring:slo-implement` | Implement SLO/SLI metrics |
-| `/deployment-validation:config-validate` | Pre-deployment validation |
-| `/cicd-automation:workflow-automate` | CI/CD pipeline automation |
+| `/observability-monitoring:slo-implement` | Implement SLO/SLI metrics       |
+| `/deployment-validation:config-validate`  | Pre-deployment validation       |
+| `/cicd-automation:workflow-automate`      | CI/CD pipeline automation       |
 
 ### Data & ML
 
-| Command | Description |
-|---------|-------------|
-| `/machine-learning-ops:ml-pipeline` | ML training pipeline orchestration |
-| `/data-engineering:data-pipeline` | ETL/ELT pipeline construction |
-| `/data-engineering:data-driven-feature` | Data-driven feature development |
+| Command                                 | Description                        |
+| --------------------------------------- | ---------------------------------- |
+| `/machine-learning-ops:ml-pipeline`     | ML training pipeline orchestration |
+| `/data-engineering:data-pipeline`       | ETL/ELT pipeline construction      |
+| `/data-engineering:data-driven-feature` | Data-driven feature development    |
 
 ### Documentation
 
-| Command | Description |
-|---------|-------------|
-| `/code-documentation:doc-generate` | Generate comprehensive documentation |
-| `/code-documentation:code-explain` | Explain code functionality |
-| `/documentation-generation:doc-generate` | OpenAPI specs, diagrams, tutorials |
+| Command                                  | Description                                                                                |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------ |
+| `/code-documentation:doc-generate`       | Generate comprehensive documentation                                                       |
+| `/code-documentation:code-explain`       | Explain code functionality                                                                 |
+| `/documentation-generation:doc-generate` | OpenAPI specs, diagrams, tutorials                                                         |
+| `/c4-architecture:c4-architecture`       | Generate comprehensive C4 architecture documentation (Context, Container, Component, Code) |
 
 ### Refactoring & Maintenance
 
-| Command | Description |
-|---------|-------------|
-| `/code-refactoring:refactor-clean` | Code cleanup and refactoring |
-| `/code-refactoring:tech-debt` | Technical debt management |
-| `/codebase-cleanup:deps-audit` | Dependency auditing |
-| `/codebase-cleanup:tech-debt` | Technical debt reduction |
-| `/framework-migration:legacy-modernize` | Legacy code modernization |
-| `/framework-migration:code-migrate` | Framework migration |
-| `/framework-migration:deps-upgrade` | Dependency upgrades |
+| Command                                 | Description                  |
+| --------------------------------------- | ---------------------------- |
+| `/code-refactoring:refactor-clean`      | Code cleanup and refactoring |
+| `/code-refactoring:tech-debt`           | Technical debt management    |
+| `/codebase-cleanup:deps-audit`          | Dependency auditing          |
+| `/codebase-cleanup:tech-debt`           | Technical debt reduction     |
+| `/framework-migration:legacy-modernize` | Legacy code modernization    |
+| `/framework-migration:code-migrate`     | Framework migration          |
+| `/framework-migration:deps-upgrade`     | Dependency upgrades          |
 
 ### Database
 
-| Command | Description |
-|---------|-------------|
-| `/database-migrations:sql-migrations` | SQL migration automation |
-| `/database-migrations:migration-observability` | Migration monitoring |
-| `/database-cloud-optimization:cost-optimize` | Database and cloud optimization |
+| Command                                        | Description                     |
+| ---------------------------------------------- | ------------------------------- |
+| `/database-migrations:sql-migrations`          | SQL migration automation        |
+| `/database-migrations:migration-observability` | Migration monitoring            |
+| `/database-cloud-optimization:cost-optimize`   | Database and cloud optimization |
 
 ### Git & PR Workflows
 
-| Command | Description |
-|---------|-------------|
-| `/git-pr-workflows:pr-enhance` | Enhance pull request quality |
-| `/git-pr-workflows:onboard` | Team onboarding automation |
-| `/git-pr-workflows:git-workflow` | Git workflow automation |
+| Command                          | Description                  |
+| -------------------------------- | ---------------------------- |
+| `/git-pr-workflows:pr-enhance`   | Enhance pull request quality |
+| `/git-pr-workflows:onboard`      | Team onboarding automation   |
+| `/git-pr-workflows:git-workflow` | Git workflow automation      |
 
 ### Project Scaffolding
 
-| Command | Description |
-|---------|-------------|
-| `/python-development:python-scaffold` | FastAPI/Django project setup |
-| `/javascript-typescript:typescript-scaffold` | Next.js/React + Vite setup |
-| `/systems-programming:rust-project` | Rust project scaffolding |
+| Command                                      | Description                  |
+| -------------------------------------------- | ---------------------------- |
+| `/python-development:python-scaffold`        | FastAPI/Django project setup |
+| `/javascript-typescript:typescript-scaffold` | Next.js/React + Vite setup   |
+| `/systems-programming:rust-project`          | Rust project scaffolding     |
 
 ### AI & LLM Development
 
-| Command | Description |
-|---------|-------------|
-| `/llm-application-dev:langchain-agent` | LangChain agent development |
-| `/llm-application-dev:ai-assistant` | AI assistant implementation |
-| `/llm-application-dev:prompt-optimize` | Prompt engineering optimization |
-| `/agent-orchestration:multi-agent-optimize` | Multi-agent optimization |
-| `/agent-orchestration:improve-agent` | Agent improvement workflows |
+| Command                                     | Description                     |
+| ------------------------------------------- | ------------------------------- |
+| `/llm-application-dev:langchain-agent`      | LangChain agent development     |
+| `/llm-application-dev:ai-assistant`         | AI assistant implementation     |
+| `/llm-application-dev:prompt-optimize`      | Prompt engineering optimization |
+| `/agent-orchestration:multi-agent-optimize` | Multi-agent optimization        |
+| `/agent-orchestration:improve-agent`        | Agent improvement workflows     |
 
 ### Testing & Performance
 
-| Command | Description |
-|---------|-------------|
-| `/performance-testing-review:ai-review` | Performance analysis |
-| `/application-performance:performance-optimization` | App optimization |
+| Command                                             | Description          |
+| --------------------------------------------------- | -------------------- |
+| `/performance-testing-review:ai-review`             | Performance analysis |
+| `/application-performance:performance-optimization` | App optimization     |
 
 ### Team Collaboration
 
-| Command | Description |
-|---------|-------------|
-| `/team-collaboration:issue` | Issue management automation |
-| `/team-collaboration:standup-notes` | Standup notes generation |
+| Command                             | Description                 |
+| ----------------------------------- | --------------------------- |
+| `/team-collaboration:issue`         | Issue management automation |
+| `/team-collaboration:standup-notes` | Standup notes generation    |
 
 ### Accessibility
 
-| Command | Description |
-|---------|-------------|
+| Command                                         | Description              |
+| ----------------------------------------------- | ------------------------ |
 | `/accessibility-compliance:accessibility-audit` | WCAG compliance auditing |
 
 ### API Development
 
-| Command | Description |
-|---------|-------------|
+| Command                               | Description             |
+| ------------------------------------- | ----------------------- |
 | `/api-testing-observability:api-mock` | API mocking and testing |
 
 ### Context Management
 
-| Command | Description |
-|---------|-------------|
-| `/context-management:context-save` | Save conversation context |
-| `/context-management:context-restore` | Restore previous context |
+| Command                               | Description               |
+| ------------------------------------- | ------------------------- |
+| `/context-management:context-save`    | Save conversation context |
+| `/context-management:context-restore` | Restore previous context  |
 
 ## Multi-Agent Workflow Examples
 
@@ -262,6 +262,27 @@ Plugins provide pre-configured multi-agent workflows accessible via slash comman
 
 **Orchestration:** incident-responder → devops-troubleshooter → debugger → error-detective → observability-engineer
 
+### C4 Architecture Documentation
+
+```bash
+# Generate comprehensive C4 architecture documentation
+/c4-architecture:c4-architecture
+
+# Natural language alternative
+"Create C4 architecture documentation for this codebase"
+```
+
+**Orchestration:** c4-code → c4-component → c4-container → c4-context
+
+**What happens:**
+
+1. **Code Level**: Bottom-up analysis of all subdirectories, creating code-level documentation with function signatures and dependencies
+2. **Component Level**: Synthesizes code documentation into logical components with interfaces and relationships
+3. **Container Level**: Maps components to deployment containers with OpenAPI/Swagger API specifications
+4. **Context Level**: Creates high-level system context with personas, user journeys, and external dependencies
+
+**Output:** Complete C4 documentation in `C4-Documentation/` directory with Mermaid diagrams at all levels (Context, Container, Component, Code)
+
 ## Command Arguments and Options
 
 Many slash commands support arguments for precise control:
@@ -289,6 +310,9 @@ Many slash commands support arguments for precise control:
 
 # Python project scaffolding
 /python-development:python-scaffold fastapi-microservice
+
+# C4 architecture documentation generation
+/c4-architecture:c4-architecture
 ```
 
 ## Combining Natural Language and Commands
@@ -336,7 +360,7 @@ Compose multiple plugins for complex scenarios:
 /unit-testing:test-generate
 
 # 4. Review the implementation
-/code-review-ai:ai-review
+/comprehensive-review:full-review
 
 # 5. Set up CI/CD
 /cicd-automation:workflow-automate
@@ -361,11 +385,11 @@ User: "Implement Kubernetes deployment with Helm"
 → Result: Production-grade K8s manifests with Helm charts
 ```
 
-See [Agent Skills](./agent-skills.md) for details on the 47 specialized skills.
+See [Agent Skills](./agent-skills.md) for details on the 107 specialized skills.
 
 ## See Also
 
 - [Agent Skills](./agent-skills.md) - Specialized knowledge packages
 - [Agent Reference](./agents.md) - Complete agent catalog
-- [Plugin Reference](./plugins.md) - All 63 plugins
+- [Plugin Reference](./plugins.md) - All 67 plugins
 - [Architecture](./architecture.md) - Design principles
